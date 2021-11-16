@@ -445,3 +445,76 @@ banner-area start
     vertical-align: initial;
 }
 
+/*======================
+counter-area start
+========================*/
+.counter-area {
+    background: #FFFFFF;
+    padding: 0px 0 20px;
+}
+
+.counter-upper {
+    max-width: 1026px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.counter-upper h4 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #292965;
+    text-align: center;
+}
+
+.counter-upper h2 {
+    font-size: 66px;
+    font-weight: 700;
+    color: #D8D8D8;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.counter-upper p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1F262D;
+}
+
+.counter-main {
+    max-width: 980px;
+    margin: 0 auto 40px;
+}
+
+.counter-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.counter-item img {
+    max-width: 80px;
+}
+
+.count-cnt {
+    margin-left: 20px;
+}
+
+.count-cnt h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2A4155;
+    margin-bottom: 0;
+}
+
+.count-cnt p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #082744;
+}
+
+.line img {
+    max-width: 100%;
+}
+
+.line .line-1 {
+    margin-top: -35px;
+}

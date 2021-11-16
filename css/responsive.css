@@ -18,6 +18,10 @@ Medium Screen - Others
 		max-width: 800px;
 	}
 
+	.counter-upper p {
+		font-size: 18px;
+	}
+
 
 
 
@@ -99,6 +103,18 @@ Small Screen - Tablate
 	.modal-video-body {
 		max-width: 650px;
 		margin: 180px auto;
+	}
+
+	.counter-upper h4 {
+		font-size: 34px;
+	}
+
+	.counter-upper h2 {
+		font-size: 48px;
+	}
+
+	.counter-item {
+		margin-bottom: 16px;
 	}
 
 
@@ -243,11 +259,35 @@ Small Screen - Mobile
 		.banner-area::after {
 			width: 70%;
 		}
-		
+
 		.modal-video-body {
 			max-width: 500px;
 			margin: 200px auto;
 		}
+	}
+
+	.counter-upper h4 {
+		font-size: 30px;
+	}
+
+	.counter-upper h2 {
+		font-size: 40px;
+	}
+
+	.counter-upper p {
+		font-size: 18px;
+	}
+
+	.counter-upper p br {
+		display: none;
+	}
+
+	.counter-item {
+		margin-bottom: 16px;
+	}
+
+	.counter-upper {
+		padding: 50px 0;
 	}
 
 	

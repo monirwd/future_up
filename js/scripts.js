@@ -37,6 +37,32 @@
 			}
 		});
 
+		//counter-up script
+		jQuery('#count-box').CountUpCircle({
+			duration: 2000,
+			opacity_anim: true,
+			step_divider: 2
+		});
+
+		jQuery('#count-box2').CountUpCircle({
+			duration: 2000,
+			opacity_anim: true,
+			step_divider: 2
+		});
+
+		jQuery('#count-box3').CountUpCircle({
+			duration: 2000,
+			opacity_anim: true,
+			step_divider: 2
+		});
+
+		jQuery('#count-box4').CountUpCircle({
+			duration: 2000,
+			opacity_anim: true,
+			step_divider: 2
+		});
+
+
 
 
 
