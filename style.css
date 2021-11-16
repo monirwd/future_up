@@ -328,7 +328,7 @@ footer-area start
     max-width: 128px;
 }
 
-.copy-left .footer-3{
+.copy-left .footer-3 {
     max-width: 114px;
 }
 
@@ -343,3 +343,105 @@ footer-area start
 /*===================
 banner-area start
 =====================*/
+.banner-area {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 200px;
+    position: relative;
+}
+
+.banner-cnt h4 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #292965;
+    margin-bottom: 0;
+    position: relative;
+    top: 20px;
+}
+
+.banner-cnt h2 {
+    font-size: 72px;
+    font-weight: 800;
+    color: #D8D8D8;
+    margin-left: 40px;
+}
+
+.banner-cnt {
+    max-width: 600px;
+    z-index: 9;
+    position: relative;
+    padding-left: 140px;
+}
+
+.banner-area::after {
+    content: "";
+    display: block;
+    width: 48%;
+    height: 236px;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0;
+    top: 160px;
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1320px) {
+    .banner-area::after {
+        width: 50%;
+    }
+}
+
+.banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.banner-inner p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #082744;
+}
+
+.banner-inner p strong {
+    font-weight: 700;
+}
+
+.banner-inner img {
+    max-width: 152px;
+    margin-left: 15px;
+}
+
+.banner-inner button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.banner-cnt a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #DB3A4A, #F7B623);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.banner-cnt a i {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.modal-video-body {
+    margin: 170px auto;
+}
+
+.modal-video-inner {
+    vertical-align: initial;
+}
+

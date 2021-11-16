@@ -5,6 +5,21 @@ Medium Screen - Others
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+	.banner-area::after {
+        width: 53%;
+    }
+
+	.banner-cnt {
+		padding-left: 0;
+		max-width: 460px;
+	}
+
+	.modal-video-body {
+		max-width: 800px;
+	}
+
+
+
 
 
 
@@ -66,6 +81,29 @@ Small Screen - Tablate
 	.copyright-part {
 		margin-top: 30px;
 	}
+
+	.banner-area::after {
+        width: 69%;
+		top: 140px;
+    }
+
+	.banner-cnt {
+		padding-left: 0px;
+		max-width: 460px;
+	}
+
+	.banner-area {
+		padding: 80px 0 170px;
+	}
+
+	.modal-video-body {
+		max-width: 650px;
+		margin: 180px auto;
+	}
+
+
+
+
 
 
 
@@ -155,7 +193,67 @@ Small Screen - Mobile
 	    max-width: 100px;
 	}
 
+	.banner-area::after {
+        width: 370px;
+		height: 180px;
+		top: 110px;
+    }
 
+	.banner-cnt {
+		padding-left: 0px;
+		max-width: 345px;
+	}
+
+	.banner-area {
+		padding: 60px 0 120px;
+	}
+
+	.banner-cnt h4 {
+		font-size: 30px;
+		top: 16px;
+	}
+
+	.banner-cnt h2 {
+		font-size: 52px;
+		margin-left: 20px;
+	}
+
+	.banner-inner p {
+		font-size: 15px;
+	}
+
+	.banner-inner img {
+		max-width: 135px;
+	}
+
+	.banner-inner {
+		padding-top: 20px;
+	}
+
+	.modal-video-body {
+		max-width: 350px;
+		margin: 200px auto;
+	}
+
+	.modal-video-close-btn {
+		right: 0;
+	}
+
+	@media screen and (min-width: 576px) and (max-width: 767px) {
+		.banner-area::after {
+			width: 70%;
+		}
+		
+		.modal-video-body {
+			max-width: 500px;
+			margin: 200px auto;
+		}
+	}
+
+	
+
+	
+	
 
 
 
