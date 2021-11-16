@@ -352,6 +352,12 @@ banner-area start
     position: relative;
 }
 
+@media screen and (min-width: 1300px) {
+    .banner-area {
+        background-size: 100% 100%;
+    }
+}
+
 .banner-cnt h4 {
     font-size: 32px;
     font-weight: 800;
@@ -478,6 +484,7 @@ counter-area start
     font-size: 20px;
     font-weight: 400;
     color: #1F262D;
+    text-align: center;
 }
 
 .counter-main {
@@ -505,6 +512,10 @@ counter-area start
     margin-bottom: 0;
 }
 
+.count-cnt h2::before {
+    content: "+";
+}
+
 .count-cnt p {
     font-size: 14px;
     font-weight: 400;
@@ -518,3 +529,91 @@ counter-area start
 .line .line-1 {
     margin-top: -35px;
 }
+
+/*======================
+oportun-area start
+========================*/
+.oportun-area {
+    background-image: url(images/oportun-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0 150px;
+    margin-top: -60px;
+}
+
+@media screen and (min-width: 1300px) {
+    .oportun-area {
+        background-size: 100% 100%;
+    }
+}
+
+.oportun-item h6 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #292965;
+}
+
+.oportun-item h2 {
+    font-size: 66px;
+    font-weight: 700;
+    color: #D8D8D8;
+    display: inline-block;
+    position: relative;
+}
+
+.oportun-item h2::before {
+    content: "";
+    width: 100%;
+    height: 3px;;
+    display: block;
+    background: linear-gradient(to right, #CFDFEE, #3EC097);
+    position: absolute;
+    bottom: -8px;
+}
+
+.oportun-item h2::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #4FC39B;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    bottom: -11px;
+    z-index: 99;
+}
+
+.oportun-item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #292965;
+    margin-top: 20px;
+}
+
+.oportun-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #082744;
+    margin: 26px 0 24px;
+}
+
+.oportun-item a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D3E75;
+    text-transform: uppercase;
+    border: 1px solid #082744;
+    padding: 10px 26px;
+    border-radius: 50px;
+}
+
+.oportun-item a:hover {
+    background: #082744;
+    color: #FFF;
+}
+
+/*======================
+oportun-area start
+========================*/

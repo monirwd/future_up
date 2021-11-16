@@ -39,7 +39,7 @@
 
 		//counter-up script
 		jQuery('#count-box').CountUpCircle({
-			duration: 2000,
+			duration: 3000,
 			opacity_anim: true,
 			step_divider: 2
 		});
