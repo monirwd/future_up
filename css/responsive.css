@@ -27,6 +27,10 @@ Medium Screen - Others
 		padding: 140px 0;
 	}
 
+	.result-box-item {
+		padding: 15px 20px;
+	}
+
 
 
 
@@ -127,11 +131,18 @@ Small Screen - Tablate
 		padding: 140px 0 120px;
 	}
 
+	.result-box-item {
+		padding: 15px 15px;
+	}
 
+	.result-box-item p {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
 
-
-
-
+	.result-box-item {
+		min-height: 275px;
+	}
 
 
 
@@ -308,6 +319,15 @@ Small Screen - Mobile
 
 	.oportun-item h2 {
 		font-size: 50px;
+	}
+
+	.result-box-item {
+		max-width: 340px;
+		margin: 16px auto;
+	}
+
+	.result-box-area {
+		padding-bottom: 65px;
 	}
 
 
