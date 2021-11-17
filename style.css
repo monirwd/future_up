@@ -1075,14 +1075,6 @@ aban-area start
 .aban-area {
     background: linear-gradient(to bottom, #FFFFFF, #EFF0FB);
     padding-top: 54px;
-    position: relative;
-}
-
-.aban-area::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: ;
 }
 
 .aban-uper h2 {
@@ -1325,23 +1317,6 @@ aban-area start
     background: #0D3E75;
     color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*========================
 Conoce-area start

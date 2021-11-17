@@ -94,16 +94,10 @@ Medium Screen - Others
 		max-width: 65px;
 	}
 
-
-
-
-
-
-
-
-
-
-
+	.aban-line .aban-line1,
+	.aban-line .aban-line2 {
+		display: none;
+	}
 
 }
 
@@ -300,20 +294,31 @@ Small Screen - Tablate
 		padding: 60px 0;
 	}
 
-	
+	.aban-line .aban-line1,
+	.aban-line .aban-line2 {
+		display: none;
+	}
 
+	.aban-uper h2 {
+		font-size: 36px;
+	}
 
+	.aban-uper h4 {
+		font-size: 52px;
+	}
 
+	.tab-part .tablink-main li a {
+		width: 230px;
+		margin: 0 5px;
+	}
 
+	.inner-tab-item {
+		margin-bottom: 25px;
+	}
 
-
-
-
-
-
-
-
-
+	.inner-tab-item {
+		min-height: 310px;
+	}
 
 }
 
@@ -641,19 +646,41 @@ Small Screen - Mobile
 		margin: 12px 0!important;
 	}
 
+	.aban-line .aban-line1,
+	.aban-line .aban-line2 {
+		display: none;
+	}
 
+	.aban-uper h2 {
+		font-size: 30px;
+	}
 
+	.aban-uper h4 {
+		font-size: 38px;
+	}
 
+	.tab-part .tablink-main {
+		display: block;
+	}
 
+	.tab-part .tablink-main li a {
+		margin: 0 auto 15px;
+	}
 
+	.inner-tab-item {
+		margin-bottom: 25px;
+	}
 
+	.inner-tab ul li {
+		padding: 8px 15px;
+	}
 
+	.inner-tab-item {
+		min-height: 310px;
+	}
 
-
-
-
-
-
-
+	.aban-btm h4 {
+		font-size: 18px;
+	}
 
 }
