@@ -92,11 +92,17 @@
 
 		});
 
-
-
-
-
-
+		//tab
+		jQuery('.tabs .tab-links a').on('click', function (e) {
+			var currentAttrValue = jQuery(this).attr('href');
+			// Show/Hide Tabs
+			// Show/Hide Tabs
+			jQuery('.tabs ' + currentAttrValue).siblings().hide();
+			jQuery('.tabs ' + currentAttrValue).delay(400).show();
+			// Change/remove current tab to active
+			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+			e.preventDefault();
+		});
 
 
 
