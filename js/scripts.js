@@ -62,6 +62,36 @@
 			step_divider: 2
 		});
 
+		//owlCarousel
+		jQuery("#owl-csel1").owlCarousel({
+			items: 1,
+			autoplay: false,
+			autoplayTimeout: 3000,
+			startPosition: 0,
+			rtl: false,
+			loop: true,
+			margin: 15,
+			dots: true,
+			nav: true,
+			navText: [
+				'<img src="images/left.png" alt="">',
+				'<img src="images/right.png" alt="">',
+			],
+			navContainer: '.main-content .custom-nav',
+			responsive: {
+				0: {
+					items: 1,
+				},
+				767: {
+					items: 1,
+				},
+				1200: {
+					items: 1,
+				}
+			}
+
+		});
+
 
 
 

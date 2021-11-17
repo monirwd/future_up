@@ -666,5 +666,201 @@ result-box-area start
 }
 
 /*========================
-result-box-area start
+pasos-area start
+==========================*/
+.pasos-area {
+    background-image: url(images/pasos-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 100px 0 160px;
+}
+
+.pasos-left h6 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #292965;
+    margin-bottom: 0;
+}
+
+.pasos-left h2 {
+    font-size: 66px;
+    font-weight: 700;
+    color: #D8D8D8;
+    margin-bottom: 0;
+}
+
+.pasos-left h4 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #292965;
+    margin-bottom: 0;
+}
+
+.pasos-left p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1F262D;
+    margin: 20px 0 35px;
+}
+
+.pasos-left ul li a {
+    width: 275px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #292965;
+    background: #FFFFFF;
+    border: 1px solid #D4D6ED;
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pasos-left ul li a span {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    background: #26CE94;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.pasos-left ul li a i {
+    display: block;
+    margin-left: auto;
+    color: #C0C6D3;
+}
+
+.pasos-left ul li a:hover,
+.pasos-left ul li .active {
+    background: linear-gradient(to right, #EA4C46, #F17833);
+    color: #FFF;
+    border-color: transparent;
+}
+
+.pasos-left ul li a .two {
+    background: #FFF;
+    color: #B4F0E0;
+}
+
+.pasos-left ul li a .three {
+    background: #D46AAF;
+    color: #FFF;
+}
+
+.pasos-left ul li a .four {
+    background: #97D722;
+    color: #FFF;
+}
+
+.pasos-left ul li {
+    padding: 5px 0;
+}
+
+.pasos-bg .container {
+    position: relative;
+}
+
+.pasos-line .pasos-line1 {
+    max-width: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pasos-line .pasos-line2 {
+    max-width: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pasos-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pasos-right img {
+    width: 100%;
+}
+
+.sld-item {
+    background: #FAF9FE;
+    padding: 35px 0;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.sld-item h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #292965;
+    text-align: center;
+}
+
+.sld-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F262D;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* carosol */
+.owl-theme .owl-dots 
+.owl-dot span {
+    width: 25px;
+    height: 6px;
+    background: #D8DFF4;
+    border-radius: 20px;
+    margin: 40px 4px 0;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #B3BCEA;
+}
+
+.main-content {
+    position: relative;
+}
+
+.main-content .owl-theme .custom-nav {
+    position: absolute;
+    top: 93%;
+    left: 0;
+    right: 0;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev, .main-content .owl-theme .custom-nav .owl-next {
+    position: absolute;   
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev {
+    left: -20px;
+}
+
+.main-content .owl-theme .custom-nav .owl-next {
+    right: -20px;
+}
+
+.main-content .owl-theme .custom-nav .owl-prev img, 
+.main-content .owl-theme .custom-nav .owl-next img {
+    max-width: 100px;
+}
+
+
+/*========================
+futeup-area start
 ==========================*/

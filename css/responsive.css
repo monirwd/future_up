@@ -31,6 +31,23 @@ Medium Screen - Others
 		padding: 15px 20px;
 	}
 
+	.pasos-line {
+		display: none;
+	}
+
+	.pasos-area {
+		padding-top: 80px;
+	}
+
+	.pasos-left h4,
+	.pasos-left h6 {
+		font-size: 29px;
+	}
+
+	.pasos-left h2 {
+		font-size: 60px;
+	}
+
 
 
 
@@ -142,6 +159,30 @@ Small Screen - Tablate
 
 	.result-box-item {
 		min-height: 275px;
+	}
+
+	.pasos-area {
+		background-size: cover;
+	}
+
+	.pasos-line {
+		display: none;
+	}
+
+	.pasos-area {
+		padding-top: 80px;
+	}
+
+	.pasos-left {
+		text-align: center;
+	}
+
+	.pasos-left ul li a {
+		margin: 0 auto;
+	}
+
+	.pasos-right {
+		margin-top: 50px;
 	}
 
 
@@ -329,6 +370,40 @@ Small Screen - Mobile
 	.result-box-area {
 		padding-bottom: 65px;
 	}
+	
+	.pasos-area {
+		background-size: cover;
+	}
+
+	.pasos-line {
+		display: none;
+	}
+
+	.pasos-area {
+		padding: 60px 0 120px;
+	}
+
+	.pasos-left {
+		text-align: center;
+	}
+
+	.pasos-left ul li a {
+		margin: 0 auto;
+	}
+
+	.pasos-right {
+		margin-top: 50px;
+	}
+
+	.main-content .owl-theme .custom-nav .owl-prev img, 
+	.main-content .owl-theme .custom-nav .owl-next img {
+		max-width: 85px;
+	}
+
+	.main-content .owl-theme .custom-nav {
+		top: 90%;
+	}
+
 
 
 	
