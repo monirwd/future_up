@@ -860,29 +860,161 @@ pasos-area start
     max-width: 100px;
 }
 
-
-/*========================
+/* 
+========================
 futeup-area start
-==========================*/
+========================
+*/
 .futeup-area {
-    background-color: #FFFFFF;
-    background-image: url(images/fute-bg1.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: auto;
+    padding: 145px 0 100px;
+    position: relative;
+    overflow: hidden;
 }
 
-.futeup-bg {
-    background-color: #FFFFFF;
-    background-image: url(images/fute-bg1.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto;
+.fute-bg .futeb-bg1 {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.fute-bg .futeb-bg2 {
+    max-width: 110px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .futeup-main {
     max-width: 1200px;
     margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+
+.futeup-right h4 {
+    font-size: 57px;
+    font-weight: 700;
+    color: #D8D8D8;
+}
+
+.futeup-right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #292965;
+    margin-bottom: 35px;
+}
+
+.futeup-right p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #082744;
+}
+
+.futeup-right a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D3E75;
+    border: 1px solid #082744;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.futeup-right a:hover {
+    background: #082744;
+    color: #FFF;
+}
+
+.fute-btm h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #082744;
+    margin: 40px 0 15px;
+    text-align: center;
+}
+
+.fute-item img {
+   width: 100%;
+}
+
+.fute-item {
+    position: relative;
+    transition: 0.2s all ease;
+}
+
+.futr-itm2 {
+    margin-top: 30px;
+}
+
+.prof-cnt {
+    background: #EEEFF7;
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 0 35px 0 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-4deg);
+    transition: 0.2s all ease;
+}
+
+.prof-cnt h4,
+.prof-cnt .info {
+    font-size: 18px;
+    font-weight: 700;
+    color: #34BDB1;
+    margin-bottom: 0;
+}
+
+.prof-cnt .orange-red {
+    color: #E94E44;
+}
+
+.prof-cnt .violet {
+    color: #834CBA;
+}
+
+.prof-cnt p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #231F20;
+    margin-bottom: 0;
+}
+.hover-efect {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(212, 85, 135, 0.7), rgba(160, 131, 190, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(212, 85, 135, 0.5);
+    transform: rotate(0deg);
+    opacity: 0;  
+    transition: 0.25s all ease;
+}
+
+.hover-efect span {
+    font-size: 21px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.hover-efect span i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.fute-item:hover .hover-efect{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fute-item:hover .prof-cnt {
+    opacity: 0;
 }
 
 
@@ -890,6 +1022,66 @@ futeup-area start
 
 
 
+
+
+
+
+
+
+
+
+
+/*====================
+popup-area start 
+======================*/
+.modal-dialog {
+    max-width: 1216px;
+    background: #F6F6F8;
+    border: none;
+    border-radius: 20px!important;
+}
+
+.modal-content button {
+    display: block;
+    width: 40px;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.modal-content {
+    border: none;
+    background: #F6F6F8;
+    padding: 40px 40px;
+    border-radius: 20px!important;
+}
+
+.modal-left h2 {
+    font-size: 66px;
+    font-weight: 700;
+    color: #D8D8D8;
+}
+
+.modal-left h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #082744;
+    margin: 15px 0 20px;
+}
+
+.modal-left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #082744;
+}
+
+.modal-right img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding-top: 40px;
+}
 
 
 

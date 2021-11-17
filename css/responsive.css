@@ -48,6 +48,52 @@ Medium Screen - Others
 		font-size: 60px;
 	}
 
+	.modal-dialog {
+		max-width: 900px;
+	}
+
+	.modal-body {
+		padding-top: 20px;
+	}
+
+	.futeup-right h4 {
+		font-size: 46px;
+	}
+
+	.futeup-right h2 {
+		font-size: 30px;
+	}
+
+	.futeup-right p {
+		font-size: 18px;
+	}
+
+	.futeup-right a {
+		font-size: 16px;
+		padding: 10px 16px;
+	}
+
+	.prof-cnt {
+		width: 90%;
+		padding: 15px 15px;
+	}
+
+	.prof-cnt h4 {
+		font-size: 17px;
+	}
+
+	.futeup-area {
+		padding: 110px 85px;
+	}
+
+	.fute-bg .futeb-bg1 {
+		max-width: 50px;
+	}
+
+	.fute-bg .futeb-bg2 {
+		max-width: 65px;
+	}
+
 
 
 
@@ -219,6 +265,39 @@ Small Screen - Tablate
 	
 	.partner-logo .part3 {
 		max-width: 150px;
+	}
+
+	.modal-dialog {
+		max-width: 700px;
+	}
+
+	.modal-body {
+		padding-top: 0px;
+	}
+
+	.modal-content {
+		padding: 20px 20px;
+	}
+
+	.modal-left h2 {
+		font-size: 52px;
+	}
+
+	.modal-left h4 {
+		font-size: 22px;
+	}
+	
+	.futeup-left {
+		margin-bottom: 50px;
+	}
+
+	.futeup-right {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.futeup-area {
+		padding: 60px 0;
 	}
 
 	
@@ -501,6 +580,67 @@ Small Screen - Mobile
 	.partner-logo {
 		display: block;
 	}
+
+	.modal-dialog {
+		max-width: 700px;
+	}
+
+	.modal-body {
+		padding-top: 25px;
+	}
+
+	.modal-content {
+		padding: 0;
+		padding-top: 15px;
+	}
+
+	.modal-left h2 {
+		font-size: 52px;
+		margin-top: 25px;
+	}
+
+	.modal-left h4 {
+		font-size: 22px;
+	}
+
+	.futeup-left {
+		margin-bottom: 50px;
+	}
+
+	.futeup-right {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.futeup-area {
+		padding: 15px 0;
+	}
+
+	.fute-bg .futeb-bg1 {
+		display: none;
+	}
+
+	.fute-bg .futeb-bg2 {
+		display: none;
+	}
+
+	.prof-cnt {
+		width: 90%;
+		padding: 15px 15px;
+	}
+
+	.prof-cnt h4 {
+		font-size: 17px;
+	}
+
+	.prof-cnt p {
+		font-size: 13px;
+	}
+
+	.fute-item {
+		margin: 12px 0!important;
+	}
+
 
 
 
