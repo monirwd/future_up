@@ -185,6 +185,45 @@ Small Screen - Tablate
 		margin-top: 50px;
 	}
 
+	.conce-inner {
+		padding: 15px 5px 10px;
+	}
+
+	.conce-inner p {
+		font-size: 13px;
+	}
+
+	.conoce-upper img {
+		max-width: 110px;
+	}
+
+	.conoce-upercnt h4 {
+		font-size: 32px;
+	}
+
+	.conoce-upercnt h2 {
+		font-size: 36px;
+	}
+
+	.empeza-main {
+		padding: 65px 50px;
+	}
+
+	.partner-logo .part1 {
+		max-width: 300px;
+	}
+	
+	.partner-logo .part2 {
+		max-width: 130px;
+	}
+	
+	.partner-logo .part3 {
+		max-width: 150px;
+	}
+
+	
+
+
 
 
 
@@ -403,13 +442,66 @@ Small Screen - Mobile
 	.main-content .owl-theme .custom-nav {
 		top: 90%;
 	}
-
-
-
 	
+	.conoce-upper {
+		display: block;
+		text-align: center;
+	}
 
+	.conoce-upper img {
+		max-width: 120px;
+	}
+
+	.conoce-upercnt {
+		margin-left: 0;
+	}
+
+	.conoce-upercnt h4 {
+		font-size: 28px;
+	}
+
+	.conoce-upercnt h2 {
+		font-size: 32px;
+	}
+
+	.conce2 {
+		margin: 25px 0;
+	} 
+
+	.empeza-main {
+		padding: 40px 20px;
+	}
+
+	.empeza-area {
+		padding: 230px 0 76px;
+	}
+
+	.empeza-cnt h2 {
+		font-size: 35px;
+	}
+
+	.empeza-cnt a {
+		font-size: 16px;
+	}
+
+	.partner-logo .part1 {
+		max-width: 250px;
+		margin-bottom: 15px;
+	}
 	
+	.partner-logo .part2 {
+		max-width: 110px;
+		margin-right: 30px;
+	}
 	
+	.partner-logo .part3 {
+		max-width: 130px;
+	}
+
+	.partner-logo {
+		display: block;
+	}
+
 
 
 

@@ -864,3 +864,260 @@ pasos-area start
 /*========================
 futeup-area start
 ==========================*/
+.futeup-area {
+    background-color: #FFFFFF;
+    background-image: url(images/fute-bg1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+}
+
+.futeup-bg {
+    background-color: #FFFFFF;
+    background-image: url(images/fute-bg1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+}
+
+.futeup-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================
+Conoce-area start
+==========================*/
+.conoce-area {
+    background: linear-gradient(to bottom, #FFFFFF, #DEE6F4);
+    padding: 100px 0 50px;
+    overflow: hidden;
+}
+
+.conoce-main {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.conoce-upper {
+    display: flex;
+    align-items: center;
+}
+
+.conoce-upper img {
+    max-width: 134px;
+}
+
+.conoce-upercnt {
+    margin-left: 30px;
+}
+
+.conoce-upercnt h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #292965;
+}
+
+.conoce-upercnt h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #D8D8D8;
+    display: inline-block;
+    position: relative;
+}
+
+.conoce-upercnt h2::before {
+    content: "";
+    width: 100%;
+    height: 3px;;
+    display: block;
+    background: linear-gradient(to right, #CFDFEE, #3EC097);
+    position: absolute;
+    bottom: -8px;
+}
+
+.conoce-upercnt h2::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #4FC39B;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    bottom: -11px;
+    z-index: 99;
+}
+
+.conce-item {
+    background: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    position: relative;
+}
+
+.conce-inner {
+    padding: 15px 10px 10px;
+}
+
+.conce-item img {
+    width: 100%;
+}
+.conce-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #082744;
+}
+
+.conce-inner h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D3E75;
+}
+
+.conce-inner h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #082744;
+}
+
+.conce2 {
+    margin-top: 60px;
+}
+
+.conoce-upper{
+    padding-bottom: 50px;
+}
+
+.rec-bddr img {
+    max-width: 200px;
+    position: absolute;
+    left: -120px;
+    bottom: 0;
+    z-index: 9;
+}
+
+/*========================
+empeza-area start
+==========================*/
+.empeza-area {
+    background: #FFF;
+    padding: 300px 0 100px;
+    position: relative;
+    margin-top: -170px;
+    overflow: hidden;
+}
+
+.empeza-area .emp-bg1 {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.empeza-area .emp-bg2 {
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+
+.empeza-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-image: url(images/empeza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 70px;
+    z-index: 99;
+    position: relative;
+}
+
+.empeza-cnt {
+   max-width: 340px; 
+}
+
+.empeza-cnt h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #4A57C9;
+}
+
+.empeza-cnt p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #082744;
+    margin: 24px 0;
+}
+
+.empeza-cnt a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #8B488D, #5A5AD7);
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition: 0.2s all ease;
+}
+
+.partner-part {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.partner-part h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #292965;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.partner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner-logo .part1 {
+    max-width: 350px;
+}
+
+.partner-logo .part2 {
+    max-width: 150px;
+}
+
+.partner-logo .part3 {
+    max-width: 180px;
+}
